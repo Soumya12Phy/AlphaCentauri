@@ -50,5 +50,6 @@ for b in np.linspace(.02,.025,51):  #best value: wavelength/angular_separation
     pl.title('According to mask width',**text_kwargs)
     pl.ylim(0.48,0.70)
     pl.pause(.04)
-    pl.clf()
+    plt.clf()
+    
     
